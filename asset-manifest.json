@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-architecture-landing-page/static/css/main.4b4f23a8.chunk.css",
+    "main.js": "/react-architecture-landing-page/static/js/main.2e88a5f0.chunk.js",
+    "main.js.map": "/react-architecture-landing-page/static/js/main.2e88a5f0.chunk.js.map",
+    "runtime-main.js": "/react-architecture-landing-page/static/js/runtime-main.bb176454.js",
+    "runtime-main.js.map": "/react-architecture-landing-page/static/js/runtime-main.bb176454.js.map",
+    "static/js/2.60f5ab43.chunk.js": "/react-architecture-landing-page/static/js/2.60f5ab43.chunk.js",
+    "static/js/2.60f5ab43.chunk.js.map": "/react-architecture-landing-page/static/js/2.60f5ab43.chunk.js.map",
+    "index.html": "/react-architecture-landing-page/index.html",
+    "static/css/main.4b4f23a8.chunk.css.map": "/react-architecture-landing-page/static/css/main.4b4f23a8.chunk.css.map",
+    "static/js/2.60f5ab43.chunk.js.LICENSE.txt": "/react-architecture-landing-page/static/js/2.60f5ab43.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb176454.js",
+    "static/js/2.60f5ab43.chunk.js",
+    "static/css/main.4b4f23a8.chunk.css",
+    "static/js/main.2e88a5f0.chunk.js"
+  ]
+}
