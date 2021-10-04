@@ -1,0 +1,20 @@
+[
+      {
+            "id": 1,
+            "title": "Plans and projects",
+            "description": "We provide a range of architectural 3D modeling services to our customers to aid the design and planning.",
+            "icon": "fas fa-project-diagram"
+      },
+      {
+            "id": 2,
+            "title": "Interior",
+            "description": "Analysis and planning services that help both the client and architects to work out the forthcoming project.",
+            "icon": "fas fa-fan"
+      },
+      {
+            "id": 3,
+            "title": "Exterior",
+            "description": "We offer comprehensive Architectural Engineering Services including interior design, Master planning, 3D modeling.",
+            "icon": "fas fa-city"
+      }
+]

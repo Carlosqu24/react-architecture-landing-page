@@ -1,0 +1,37 @@
+.services {
+      height: auto;
+      width: 100%;
+      padding: 5rem;
+
+      background: rgb(255, 255, 255);
+      /* background: var(--dark-gray); */
+      color: rgb(0, 0, 0);
+}
+
+.services-container {
+      height: auto;
+      width: 100%;
+      padding: 3rem 0rem;
+
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+      /* gap: 3rem 1rem; */
+      gap: 5rem;
+}
+
+.service-card {
+      height: 300px;
+      padding: 1rem;
+
+      background: rgb(245, 245, 245);
+      
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+}
+
+.icon {
+      font-size: 30px;
+}
