@@ -20,23 +20,9 @@
       justify-content: space-evenly;
 }
 
-.title {
-      font-size: 25px;
-      color: rgb(163, 161, 60);
-}
-
-.subtitle {
-      font-size: 50px;
-}
-
-.paragraph {
-      font-size: 18px;
-      text-align: justify;
-}
-
 .experience-text {
       font-size: 25px;
-      font-weight: bold;
+      font-weight: 400;
 }
 
 
@@ -53,4 +39,41 @@
       height: 100%;
 
       object-fit: cover;
+}
+
+
+@media screen and (max-width: 1024px) {
+      .about {
+            padding: 5rem 1rem;
+            height: auto;
+
+            flex-direction: column;
+            align-items: center;
+            
+      }
+
+      .about__left {
+            width: 100%;  
+      }
+
+      
+
+      .about__left * {
+            margin: 10px 0;
+      }
+
+      .about__right {
+            /* height: 100%; */
+            width: 100%;
+            margin: 100px 0;
+
+            text-align: center;
+      }
+
+      .about__img {
+            width: 100%;
+            object-fit: cover;
+
+            text-align: center;
+      }
 }

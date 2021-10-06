@@ -2,8 +2,16 @@
     /* COLORS */
     --dark-gray: rgb(34, 34, 34);
 
+    --light-pink: rgb(255, 248, 252);
+    --pink: rgb(139, 127, 133);
+    --dark-pink: rgb(109, 92, 101);
+
+    --light-aquamarine: rgb(211, 226, 226);
+    --aquamarine: rgb(168, 193, 193);
+    --dark-aquamarine: rgb(136, 163, 163);
+
     /* FONTS */
-    --primary-font: 'Arimo', sans-serif;
+    --primary-font: 'Montserrat', sans-serif;
 }
 
 * {
@@ -13,6 +21,28 @@
     scroll-behavior: smooth;
 }
 
+*::selection {
+    background: var(--light-aquamarine);
+}
+
 body {
     font-family: var(--primary-font);
+
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.subtitle {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.paragraph {
+    font-size: 18px;
+    
+    text-align: justify;
 }

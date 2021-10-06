@@ -8,7 +8,7 @@ export const About = () => {
 
                   <article className="about__left">
                         <div className="text-wrapper">
-                              <h2 class="title">About</h2>
+                              <h2 className="title">About</h2>
                               <h3 className="subtitle">We are the leader in arch</h3>
                               <p className="paragraph">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aspernatur fugit dolore quia minus cum, eum neque perferendis velit placeat.

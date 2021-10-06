@@ -3,19 +3,19 @@
       height: 100vh;
       padding: 5rem;
 
-      background-image: url(https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+      background-image: url(https://images.unsplash.com/photo-1485628390555-1a7bd503f9fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
       background-size: cover;
       color: #000;
 
       display: flex;
       align-items: center;
-      justify-content: flex-end;
+      justify-content: center;
 }
 
 .hero-card {
       width: 40%;
 
-      text-align: right;
+      text-align: left;
 }
 
 .hero-card * {
@@ -24,6 +24,7 @@
 
 .hero-title {
       font-size: 50px;
+      font-weight: 400;
 }
 
 .hero-description {
@@ -36,6 +37,20 @@
       font-size: 20px;
       text-decoration: none;
       
-      background: rgb(231, 183, 183);
-      color: #000;
+      background: #fff;
+      color: rgb(0, 0, 0);
+}
+
+
+@media screen and (max-width: 1024px) {
+      .hero {
+            padding: 1rem;
+
+            justify-content: center;
+      }
+
+      .hero-card {
+            width: 100%;
+            text-align: center;
+      }
 }

@@ -3,18 +3,18 @@
             "id": 1,
             "title": "Plans and projects",
             "description": "We provide a range of architectural 3D modeling services to our customers to aid the design and planning.",
-            "icon": "fas fa-project-diagram"
+            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAsElEQVRIie3WYQnEMAyG4VfCJFRCJZyUk3AS5qASJmESJmESJqESdj+WshC4n8k4yAdhNIU9dB2lkPnjTMAKdHmWCLQAB3Cq6kCNRHeDlwi0Sb+p3uKN7mZ+k/7hiY6aZf6Dw4otunDt5RivOPxgFm2qr/EQdGR+AtV7mmiiiQL3+RqK1idQgLd6+SsKhftw7zKuOB2DNr9uEa6o3l9brnenyUAb12euMueaEgVlQvIFCsadpKhp5MUAAAAASUVORK5CYII="
       },
       {
             "id": 2,
             "title": "Interior",
             "description": "Analysis and planning services that help both the client and architects to work out the forthcoming project.",
-            "icon": "fas fa-fan"
+            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAoUlEQVRIie3VUQ2AMBAD0EqYhEmYBCRMwiQgYU6QgAQkIAk+CMlC4DhyZfCxJv0kj4xmAC0/iQMQAHTG+qfoDGAhddDCmYjuTRrYw3a88eTlswZmJWlhB+6QnAYewPmWxyGJcCShZ0MS4Z4Ml4gI5z/Ak6Em2JIGN/gTOH0BT9ju7apwkB54ExZTwp2hj+E3/063GUno5ZCkeNiOWhxSS/Wsf0UY7LehON4AAAAASUVORK5CYII="
       },
       {
             "id": 3,
             "title": "Exterior",
             "description": "We offer comprehensive Architectural Engineering Services including interior design, Master planning, 3D modeling.",
-            "icon": "fas fa-city"
+            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAq0lEQVRIie3VUQ2DMBDG8b+ESZiESUDCJFQCEnCAhElAQqUgoRLYA/dAbhAo276F0Uu+l0vor0npFUptq7vlokaHSSLQKjbSONjn7Y0EILlFqw2wT5sLdzOL7IGHXDjaR71hDXBVwtH1C1xgGZwY76ocrq0f1HCwvp/hkjN+MA6ac/xcBT4+3POjZ3GaSgHPDYQ9cJcLL9UanAwLwO1TKLzO5K9BS7gE+p96AlWETyizO5ThAAAAAElFTkSuQmCC"
       }
 ]

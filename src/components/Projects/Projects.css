@@ -47,6 +47,7 @@
 
 .card__title {
       font-size: 25px;
+      font-weight: 400;
 }
 
 .card__type {
@@ -54,12 +55,38 @@
       display: inline-block;
 
       background: rgb(0, 0, 0);
+      background: var(--dark-aquamarine);
       color: #fff;
-      font-size: 18px;
+      font-size: 16px;
 }
 
 .card__link {
-     
       color: rgb(0, 0, 0);
-      font-size: 18px;
+      font-size: 20px;
+      text-decoration: none;
+}
+
+.card__link:hover {
+      text-decoration: underline;
+}
+
+.card__link * {
+      display: inline;
+}
+
+.card__link i {
+      margin-left: 10px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+      .projects {
+            padding: 5rem 1rem;
+      }
+
+      .projects-container {
+            grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+            gap: 3rem;
+      }
 }

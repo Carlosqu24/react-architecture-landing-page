@@ -1,10 +1,13 @@
 .header {
       width: 100%;
-      height: 100px;
+      height: 80px;
       padding: 2rem 0;
+      position: fixed;
 
-      background: var(--dark-gray);
-      color: #fff;
+      background: transparent;
+      color: rgb(0, 0, 0);
+
+      transition: background 0.5s ease;
 
       display: flex;
       flex-direction: row;
@@ -12,11 +15,20 @@
       justify-content: space-around;
 }
 
-.sidebar__logo {
+.header--active {
+      background: var(--dark-gray);
+      color: #fff;
+}
+
+.header--active .navbar__link {
+      color: #fff;
+}
+
+.header__logo {
       font-size: 25px;
 }
 
-
+/*-----------------NAVBAR------------------*/
 .navbar {
       display: flex;
       flex-direction: row;
@@ -32,11 +44,54 @@
 .navbar__link {
       margin: 10px;
 
-      color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
       text-decoration: none;
       font-size: 18px;
 }
 
 .navbar__link:hover {
       text-decoration: underline;
+}
+
+/*--------------------RESPONSIVE MENU----------------------*/
+.responsive-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+
+      background: rgba(0, 0, 0, 0.795);
+
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
+}
+
+.responsive-menu__item {
+      list-style: none;
+}
+
+.responsive-menu__link {
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+}
+
+.burger-menu {
+      display: none;
+
+      z-index: 300;
+}
+
+
+@media screen and (max-width: 1000px) {
+      .navbar {
+            display: none;
+      }
+
+      .burger-menu {
+            display: block;
+      }
 }

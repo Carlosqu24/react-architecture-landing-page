@@ -1,7 +1,7 @@
 .footer {
       height: auto;
       width: 100%;
-      padding: 5rem 0;
+      padding: 2rem 0;
 
       background: var(--dark-gray);
       color: #fff;
@@ -30,6 +30,10 @@
       text-align: right;
 }
 
+.footer__right * {
+      margin: 10px 0;
+}
+
 .footer__bottom {
       width: 100%;
       padding: 1rem 0;
@@ -42,7 +46,7 @@
 .social-links {
       display: flex;
       align-items: flex-end;
-      justify-content: center;
+      justify-content: space-between;
 }
 
 .social-item {
@@ -50,8 +54,24 @@
 }
 
 .social-link {
-      margin: 0 5px;
-
+     
+      font-size: 20px;
       color: #fff;
       text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+      .footer {
+            padding: 0;
+
+            flex-direction: column;
+      }
+
+      .footer * {
+            margin: 15px 0;
+      }
+
+      .footer__right {
+            text-align: center;
+      }
 }

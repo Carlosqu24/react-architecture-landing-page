@@ -12,7 +12,7 @@ export const Projects = () => {
                   <div className="projects-container">
                         {
                               db.map(project => (
-                                    <div className="card">
+                                    <div className="card" key={project.id}>
                                           <img 
                                                 className="card__image"
                                                 src={project.imageUrl}
@@ -21,7 +21,10 @@ export const Projects = () => {
                                           <div className="card__body">
                                                 <h3 className="card__title">{project.title}</h3>
                                                 <p className="card__type">{project.type}</p>
-                                                <a className="card__link" href={project.url}>See project</a>
+                                                <a className="card__link" href={project.url}>
+                                                      <p>See project</p>
+                                                      <i class="fas fa-arrow-right"></i>
+                                                </a>
                                           </div>
                                     </div>
                               ))

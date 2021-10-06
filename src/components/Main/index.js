@@ -8,6 +8,7 @@ import { About } from '../About';
 import { Hero } from '../Hero';
 import { Services } from '../Services';
 import { Projects } from '../Projects'; 
+import { ScrollToTopButton } from '../ScrollToTopButton';
 
 export const Main = () => {
 
@@ -18,6 +19,7 @@ export const Main = () => {
                   <About />
                   <Services />
                   <Projects />
+                  <ScrollToTopButton />
             </main>
       )
 }
