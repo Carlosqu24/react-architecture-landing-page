@@ -30,7 +30,7 @@ export const Header = () => {
 
       return (
             <div ref={headerRef} className="header">
-                  <h2 className="header__logo">Architech</h2>
+                  <h2 className="header__logo">Architect</h2>
 
                   <ul className="navbar">
                         <li className="navbar__item">

@@ -3,7 +3,7 @@
       position: fixed;
       bottom: 0px;
       right: 0;
-      margin: 2rem;
+      margin: 0 1rem 3rem 0;
       padding: 1rem;
 
       font-family: var(--primary-font);

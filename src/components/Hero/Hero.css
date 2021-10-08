@@ -37,8 +37,8 @@
       font-size: 20px;
       text-decoration: none;
       
-      background: #fff;
-      color: rgb(0, 0, 0);
+      background: var(--aquamarine);
+      color: rgb(255, 255, 255);
 }
 
 

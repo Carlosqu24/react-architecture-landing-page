@@ -23,10 +23,17 @@
 
       background: #fff;
       color: rgb(0, 0, 0);
+      text-align: justify;
 }
 
 .service-card * {
       margin: 1rem 0;
+}
+
+.service-card__header  {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
 }
 
 .service-card__title {
@@ -59,7 +66,8 @@
 
 
 .icon {
-      font-size: 30px;
+      font-size: 20px;
+
       color: var(--dark-aquamarine);
 }
 

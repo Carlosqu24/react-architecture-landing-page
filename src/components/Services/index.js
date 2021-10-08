@@ -14,12 +14,14 @@ export const Services = () => {
                               db.map(service => (
                                     <div className="service-card" key={service.id}>
                                           {/* <i className={`${service.icon} icon`}></i> */}
-                                          <img src={service.icon} alt="" />
-                                          <h2 className="service-card__title">{service.title}</h2>
+                                          <div className="service-card__header">
+                                                <h2 className="service-card__title">{service.title}</h2>
+                                                <img src={service.icon} alt="" />
+                                          </div>
                                           <p className="service-card__description">{service.description}</p>
                                           <a href="" className="service-card__link">
                                                 <p>See more</p>
-                                                <i class="fas fa-arrow-right"></i>
+                                                <i className="fas fa-arrow-right"></i>
                                           </a>
                                     </div>
                               ))

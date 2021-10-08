@@ -33,7 +33,7 @@
 }
 
 .card__body {
-      padding: 1.5rem 1rem;
+      padding: 1.5rem 0rem;
 
       display: flex;
       flex-direction: column;

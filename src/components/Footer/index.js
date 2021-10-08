@@ -16,17 +16,17 @@ export const Footer = () => {
                               <p>Pérez Zeledón, San José, Costa Rica</p>
                               <ul className="social-links">
                                     <li className="social-item">
-                                          <a href="" className="social-link">
+                                          <a href="#" className="social-link">
                                                 <i className="fab fa-facebook-f"></i>
                                           </a>
                                     </li>
                                     <li className="social-item">
-                                          <a href="" className="social-link">
+                                          <a href="#" className="social-link">
                                                 <i className="fab fa-twitter"></i>
                                           </a>
                                     </li>
                                     <li className="social-item">
-                                          <a href="" className="social-link">
+                                          <a href="#" className="social-link">
                                                 <i className="fab fa-instagram"></i>
                                           </a>
                                     </li>
