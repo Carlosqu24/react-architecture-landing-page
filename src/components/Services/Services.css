@@ -1,10 +1,14 @@
 .services {
       height: auto;
       width: 100%;
-      padding: 5rem;
+      padding: 5rem 0;
 
       background: rgb(255, 255, 255);
       color: rgb(0, 0, 0);
+}
+
+.services .container {
+
 }
 
 .services-container {
@@ -19,9 +23,9 @@
 
 .service-card {
       height: auto;
-      padding: 0rem;
+      padding: 1rem;
 
-      background: #fff;
+      background: rgb(243, 250, 250);
       color: rgb(0, 0, 0);
       text-align: justify;
 }
@@ -38,7 +42,7 @@
 
 .service-card__title {
       font-size: 25px;
-      font-weight: 400;
+      font-weight: 600;
 }
 
 .service-card__description {
