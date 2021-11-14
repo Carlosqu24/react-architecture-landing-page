@@ -24,7 +24,7 @@
       height: auto;
       width: 100%;
       padding: 3rem 0rem;
-
+      
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
       gap: 2rem;
@@ -32,7 +32,6 @@
 
 .card {
       height: auto;
-      margin: 20px 0;
 }
 
 .card__image {
@@ -55,8 +54,14 @@
 }
 
 .card__title {
+      margin: 0;
+
       font-size: 25px;
-      font-weight: 400;
+      font-weight: 700;
+}
+
+.card__description {
+      font-size: 20px;
 }
 
 .card__type {
@@ -66,7 +71,7 @@
       background: rgb(0, 0, 0);
       background: var(--dark-aquamarine);
       color: #fff;
-      font-size: 16px;
+      font-size: 20px;
 }
 
 .card__link {

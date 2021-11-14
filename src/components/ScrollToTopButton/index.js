@@ -10,11 +10,11 @@ export const ScrollToTopButton = () => {
 
       const handleScroll = () => {
             document.addEventListener("scroll", e => {
-                  if (window.scrollY >= 500) {
+                  if (window.scrollY >= 300) {
                         btnRef.current.classList.add("active");
                   }
 
-                  if (window.scrollY < 500) {
+                  if (window.scrollY < 300) {
                         btnRef.current.classList.remove("active");
                   }
             });

@@ -43,11 +43,17 @@ body {
 
 .subtitle {
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .paragraph {
     font-size: 18px;
     
     text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
 }

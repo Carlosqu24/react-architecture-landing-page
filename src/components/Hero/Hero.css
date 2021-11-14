@@ -24,7 +24,7 @@
 
 .hero-title {
       font-size: 50px;
-      font-weight: 400;
+      font-weight: 700;
 }
 
 .hero-description {
@@ -35,6 +35,7 @@
       padding: 10px 1rem;
       
       font-size: 20px;
+      font-weight: bold;
       text-decoration: none;
       
       background: var(--aquamarine);

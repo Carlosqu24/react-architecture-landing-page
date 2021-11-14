@@ -21,6 +21,8 @@ export const Projects = () => {
                                                       alt="" />
                                                       
                                                 <div className="card__body">
+                                                      <h2 className="card__title">{project.title}</h2>
+                                                      <p className="card__description">{project.description}</p>
                                                       <p className="card__type">{project.type}</p>
                                                       <a className="card__link" href={project.url}>
                                                             <p>See project</p>
