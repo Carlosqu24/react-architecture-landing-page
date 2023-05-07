@@ -1,7 +1,14 @@
 .main {
-      width: 100%; /* Para llenar */
-      height: auto;
+  width: 100%; /* Para llenar */
+  height: auto;
 
-      background: #000;
-      color: #fff;
+  background-image: url(../../assets/pexels-photo-1850269.webp);
+  background-size: contain;
+  color: #fff;
+}
+
+@media screen and (max-width: 1280px) {
+  .main {
+    background-size: cover;
+  }
 }
